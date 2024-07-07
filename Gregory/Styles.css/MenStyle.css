@@ -11,6 +11,7 @@ body {
   .navbar {
     display: flex;
     align-items: center; /* Center items vertically */
+    height: 250px;
   }
   header {
     background-color:rgb(52, 15, 95);
@@ -22,7 +23,7 @@ body {
     top:auto;
     width: 100%;
     text-align:justify;
-    padding: 7px;
+    padding: 2px;
     font-size:large;
   }
   .image-container {
@@ -60,10 +61,10 @@ body {
   .header-title {
     color: #d8dad0;
     text-align:center;
-    margin-top: 20px; /* Space between nav links and header title */
+    margin-top: 5px; /* Space between nav links and header title */
   }
   .header-title h1 {
-    font-size: 4em;
+    font-size: 3em;
     margin: 0;
   }
   .header-title p {
