@@ -113,7 +113,6 @@ ul li a:hover {
   background-color: rgb(4, 29, 50);
   color: rgb(162, 193, 231);
 }
-
 .button {
   display: grid;
   position: absolute;
@@ -238,6 +237,77 @@ ul li a:hover {
   text-transform: uppercase;
 }
 
+.btn6{
+  display: inline-block;
+  width: auto;
+  opacity: 100%;
+  outline: none;
+  position: absolute;
+  padding: 16px 24px;
+  top: 410%;
+  left: 13%;
+  text-decoration: none;
+  color: #ffffff;
+  border: 1px solid #f7dda5;
+  background-color: transparent;
+  letter-spacing: 0;
+  line-height: 1rem;
+  text-transform: uppercase;
+  font-family: inherit;
+  font-size: .75rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1rem;
+  text-transform: uppercase;
+}
+.btn7{
+  display: inline-block;
+  width: auto;
+  opacity: 100%;
+  outline: none;
+  position: absolute;
+  padding: 16px 24px;
+  top: 410%;
+  left: 46%;
+  text-decoration: none;
+  color: #f0d397;
+  border: 1px solid #fae2ae;
+  background-color: #5b5a59 transparent;
+  letter-spacing: 0;
+  line-height: 1rem;
+  text-transform: uppercase;
+  font-family: inherit;
+  font-size: .75rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1rem;
+  text-transform: uppercase;
+}
+
+.btn8{
+  display: inline-block;
+  width: auto;
+  opacity: 100%;
+  outline: none;
+  position: absolute;
+  padding: 14px 20px;
+  top: 415.5%;
+  left: 80%;
+  text-decoration: none;
+  color: #555555;
+  border: 1px solid #fae2ae;
+  background-color: #bfc4c0;
+  letter-spacing: 0;
+  line-height: 1rem;
+  text-transform: uppercase;
+  font-family: inherit;
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1rem;
+  text-transform: uppercase;
+}
+
 .btn1:hover, .btn2:hover, .btn3:hover {
   color: #060606;
   transition: 0.6s ease;
@@ -245,11 +315,20 @@ ul li a:hover {
   border: 1px solid #090909;
 }
 
+.btn6:hover, .btn7:hover, .btn8:hover {
+  color: #060606;
+  transition: 0.6s ease;
+  opacity: 5%;
+  border: 1px solid #090909;
+  bol
+}
+
 .lastpics {
   display: inline-grid;
   grid-template-columns: auto auto auto;
   background-color: #f4eeee;
   padding: 10px 10px;
+  margin-top: 200px;
 }
 
 footer {
@@ -263,9 +342,10 @@ footer {
   color: #f8f4f4;
   background-color: #0e0c0c;
   z-index: 100;
+  margin-top: 300px;
 }
 footer p {
-  font-size: xx-large;
+  font-size: 145px;
   text-align: center;
 }
 .footer a {
