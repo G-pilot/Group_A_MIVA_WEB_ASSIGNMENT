@@ -84,6 +84,12 @@ p {
   border: 1px solid #f0d397;
   padding: 1px;
 }
+
+.img-darken {
+  transition: 1s ease;
+  filter: brightness(50%);
+}
+
 ul {
   display: flex;
   z-index: 1;
@@ -129,7 +135,7 @@ ul li a:hover {
   top: 210%;
   left: 13.3%;
   text-decoration: none;
-  color: #695b4e;
+  color: #a19385;
   border: 1px solid #b2a39c;
   background-color: #ccc5bb transparent;
   letter-spacing: 0;
@@ -216,7 +222,7 @@ ul li a:hover {
 .btn5{
   display: inline-block;
   width: auto;
-  opacity: 100%;
+  opacity: 1 !important;
   outline: none;
   position: absolute;
   padding: 16px 24px;
@@ -240,21 +246,21 @@ ul li a:hover {
 .btn6{
   display: inline-block;
   width: auto;
-  opacity: 100%;
+  opacity: 5%;
   outline: none;
   position: absolute;
   padding: 16px 24px;
   top: 410%;
   left: 13%;
   text-decoration: none;
-  color: #ffffff;
-  border: 1px solid #f7dda5;
+  color: #060606;
+  border: 1px solid #090909;
   background-color: transparent;
   letter-spacing: 0;
   line-height: 1rem;
   text-transform: uppercase;
   font-family: inherit;
-  font-size: .75rem;
+  font-size: .85rem;
   font-weight: 700;
   letter-spacing: 0;
   line-height: 1rem;
@@ -263,39 +269,38 @@ ul li a:hover {
 .btn7{
   display: inline-block;
   width: auto;
-  opacity: 100%;
+  opacity: 5%;
   outline: none;
   position: absolute;
   padding: 16px 24px;
   top: 410%;
   left: 46%;
   text-decoration: none;
-  color: #f0d397;
-  border: 1px solid #fae2ae;
+  color: #060606;
+  border: 1px solid #090909;
   background-color: #5b5a59 transparent;
   letter-spacing: 0;
   line-height: 1rem;
   text-transform: uppercase;
   font-family: inherit;
-  font-size: .75rem;
+  font-size:  .85rem;
   font-weight: 700;
   letter-spacing: 0;
   line-height: 1rem;
   text-transform: uppercase;
 }
-
 .btn8{
   display: inline-block;
   width: auto;
-  opacity: 100%;
+  opacity:  25%;
   outline: none;
   position: absolute;
   padding: 14px 20px;
   top: 415.5%;
   left: 80%;
   text-decoration: none;
-  color: #555555;
-  border: 1px solid #fae2ae;
+  color: #060606;
+  border: 1px solid #090909;
   background-color: #bfc4c0;
   letter-spacing: 0;
   line-height: 1rem;
@@ -315,19 +320,55 @@ ul li a:hover {
   border: 1px solid #090909;
 }
 
-.btn6:hover, .btn7:hover, .btn8:hover {
-  color: #060606;
+
+.btn6:hover {
+  color: #ffffff;
   transition: 0.6s ease;
-  opacity: 5%;
-  border: 1px solid #090909;
-  bol
+  opacity: 100%;
+  border: 1px solid #f7dda5;
+}
+.btn7:hover {
+  color: #f0d397;
+  transition: 0.6s ease;
+  opacity: 1!important;
+  border: 1px solid #fae2ae;
+}
+.btn8:hover {
+  color: #555555;
+  transition: 0.6s ease;
+  opacity: 100%;
+  border: 1px solid #fae2ae;
 }
 
+
+#wrapper { 
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+} 
+
+#home1 { 
+  width: 750px; 
+  height: 500px;
+  padding: 1px;
+} 
+
+@media (max-width:767px) {
+  .home1 {
+      position: relative;
+      padding-bottom: 56.25%; /* 16/9 ratio */
+      padding-top: 30px; /* IE6 workaround*/
+      height: 0;
+      overflow: hidden;
+  }
+  .home2 {
+      margin-left: 0;
+  }
+}
 .lastpics {
   display: inline-grid;
   grid-template-columns: auto auto auto;
   background-color: #f4eeee;
-  padding: 10px 10px;
+  padding: 8px;
   margin-top: 200px;
 }
 

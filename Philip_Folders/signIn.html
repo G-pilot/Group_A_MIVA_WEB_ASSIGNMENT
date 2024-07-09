@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Galitano</title>
+    <link rel="stylesheet" href="CSS/SIstyles.css">
+</head>
+<body>
+    <header>
+        <div id="Home">
+            <div class="logo">
+              <a href="home.html"><img src="Images\Galitano-logo.png" alt="logo"/></a>
+            </div>
+        <nav>
+            <ul>
+                <li><a href="home.html">
+                    <img src="Images/home.png" alt="cart" title="Home" style="width: 25px; height: 25px;"/>
+                </a></li>
+                <li><a href="signup.html">
+                    <img src="Images/profile.png" alt="account" title="Join us" style="width: 25px; height: 25px;"/>
+                </a></li>
+                <li><a href="../Gregory/Index.html/Contact-us.html">
+                    <img src="Images/contact.png" alt="about us" title="Contact-us" style="width: 25px; height: 25px;"/>
+                </a></li>
+            </ul>
+        </nav>
+    </header>
+</div>
+<div class="backvid" >
+    <video src="../Philip_Folders/Images/signin.mp4" width="1520vh" height="855vh" muted autoplay loop>
+    </video>
+</div>
+    <div class="signin-container">
+        <h1>Sign In - Galitano</h1>
+        <form id="signinForm">
+            <div class="form-group">
+                <label for="email"></label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                <div class="error" id="emailError"></div>
+            </div>
+            <div class="form-group">
+                <label for="password"></label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                <div class="error" id="passwordError"></div>
+            </div>
+            <div class="form-group">
+                <button type="submit">Sign In</button>
+            </div>
+            <div>
+                <a id="fgp" href="../Gregory/Index.html/Contact-us.html"><h3>forgot password?</h3></a>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js">
+        document.getElementById('signinForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent the form from submitting normally
+    
+    // Clear previous error messages
+    document.getElementById('usernameError').innerText = '';
+    document.getElementById('emailError').innerText = '';
+    document.getElementById('passwordError').innerText = '';
+    document.getElementById('confirmPasswordError').innerText = '';
+
+    // Retrieve form values
+    const username = document.getElementById('username').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const password = document.getElementById('password').value;
+    const confirmPassword = document.getElementById('confirmPassword').value;
+
+    // Validate form values
+    let isValid = true;
+
+    if (email === '') {
+        isValid = false;
+        document.getElementById('emailError').innerText = 'Email is required';
+    } else if (!validateEmail(email)) {
+        isValid = false;
+        document.getElementById('emailError').innerText = 'Invalid email format';
+    }
+
+    if (password === '') {
+        isValid = false;
+        document.getElementById('passwordError').innerText = 'Password is required';
+    }
+
+    // If all validations pass, submit the form
+    if (isValid) {
+        alert('Sign in successful!');
+        // You can add code here to actually submit the form data to the server
+    }
+});
+
+function validateEmail(email) {
+    const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return re.test(email);
+}
+
+    </script>
+</body>
+</html>

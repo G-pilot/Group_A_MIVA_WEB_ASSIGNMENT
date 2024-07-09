@@ -26,7 +26,7 @@
         <main>
         <div id="runway">
             <div class="fashion">
-                <video height="801vh" width="" autoplay muted loop>
+                <video height="801vh" width="1519vh" autoplay muted loop>
                     <source src="../Philip_Folders/Images/fashionRunway.mp4" type="video/mp4">Discover Your Style, Elevate Your Wardrobe
                 </video>
             </div>
@@ -43,26 +43,27 @@
             </section>
         </div>
 
-        <div class="gridpic">
-            <picture class="men">
-                <a href="../Gregory/Index.html/Men's_collection.html"><img src="Images/Gal4.jpg" width="496vh" height="700vh" alt="standing man"/></a>
-            </picture>
-            <picture class="men">
-                <a href="../Gregory/Index.html/Women's_collection.html"><img src="Images/GalWoman2.jpg" width="496vh" height="700vh" alt="standing man"/></a>
-            </picture>
-            <picture class="men">
-                <a href="?"><img src="Images/kids.jpg" width="496vh" height="700vh" alt="standing man"/></a>
-            </picture>
-        </div>
+
+            <div class="gridpic">
+                <picture class="men">
+                    <a href="../Gregory/Index.html/Men's_collection.html"><img src="Images/Gal4.jpg" width="496vh" height="700vh" alt="standing man"/></a>
+                </picture>
+                <picture class="men">
+                    <a href="../Gregory/Index.html/Women's_collection.html"><img src="Images/GalWoman2.jpg" width="496vh" height="700vh" alt="standing man"/></a>
+                </picture>
+                <picture class="men">
+                    <a href="?"><img src="Images/kids.jpg" width="496vh" height="700vh" alt="standing man"/></a>
+                </picture>
+            </div>
 
         <div class="Button">
             <a href="../Gregory/Index.html/Men's_collection.html" class="btn1"><b>Explore Men</b></a>
             <a href="../Gregory/Index.html/Women's_collection.html" class="btn2"><b>Explore Women</b></a>
             <a href="Aboutus.html" class="btn3"><b>Explore Kids</b></a>
-            <a href="" class="btn4"><b>Men Spring 2024 Fashion Show</b></a>
-            <a href="Aboutus.html" class="btn5"><b>Explore our  Fashion Accessories</b></a>
-            <a href="Aboutus.html" class="btn6"><b>Services</b></a>
-            <a href="Aboutus.html" class="btn7"><b>Gifting</b></a>
+            <a href="../Gregory/Index.html/Men's_collection.html" class="btn4"><b>Men Spring 2024 Fashion Show</b></a>
+            <a href="../Gregory/Index.html/Men's_watch.html" class="btn5"><b>Explore our  Fashion Accessories</b></a>
+            <a href="../Gregory/Index.html/Contact-us.html" class="btn6"><b>Services</b></a>
+            <a href="../Gregory/Index.html/Womens'_watch.html" class="btn7"><b>Gifting</b></a>
             <a href="Aboutus.html" class="btn8"><b>US</b></a>
         </div>
             <div class="container2">
@@ -72,24 +73,27 @@
             <section class="section collections">
                 <h2>Explore more of our collections</h2>
             </section>
-        <a href="../Gregory/Index.html/Men's_collection.html" id="standingMan">
-            <video height="500vh" width="750vh" autoplay muted loop>
-                <source src="../Philip_Folders/Images/ManStanding.mp4" type="video/mp4">
-            </video>
-        <a href="../Gregory/Index.html/Men's_watch.html">
-            <video height="500vh" width="750vh" autoplay muted loop>
-                <source src="../Philip_Folders/Images/background_video_watch.mp4" type="video/mp4">
-            </video>
-        </a>
+            <a href="../Gregory/Index.html/Men's_collection.html">
+                <div id="wrapper">
+                    <video id="home1" height="500vh" width="700vh" poster="Images/ManStanding.mp4 " preload="none" autoplay muted loop>
+                    <source src="../Philip_Folders/Images/ManStanding.mp4" type="video/mp4">
+                </video></div></a>
+            <a href="../Gregory/Index.html/Men's_watch.html">
+                <div id="wrapper">
+                    <video id="home1" height="500vh" width="700vh" poster="Images/background_video_watch.mp4" preload="none" autoplay muted loop>
+                        <source src="../Philip_Folders/Images/background_video_watch.mp4" type="video/mp4">
+                </video></div></a>
+                <div class="clear"></div>
+
         <div class="lastpics">
             <picture class="last">
-                <a href="home.html" ><img src="Images/services.jpg" width="497vh" height="500vh" alt="standing man"/></a>
+                <a href="home.html" ><img src="Images/services.jpg" width="496vh" height="500vh" alt="standing man"/></a>
             </picture>
-            <picture class="men">
-                <a href="home.html"><img src="Images/gifts.jpg" width="497vh" height="500vh" alt="standing man"/></a>
+            <picture class="last">
+                <a href="home.html"><img src="Images/gifts.jpg" width="496vh" height="500vh" alt="standing man"/></a>
             </picture>
-            <picture class="men">
-                <a href="home.html"><img src="Images/aboutUs.jpg" width="497vh" height="500vh" alt="standing man"/></a>
+            <picture class="last">
+                <a href="home.html"><img src="Images/aboutUs.jpg" width="496vh" height="500vh" alt="standing man"/></a>
             </picture>
         </div>
         </main>
@@ -115,17 +119,19 @@
             <a>Copyright. &copy; 2024 Galitano Brand. All rights reserved.</a>
         </footer>
         <script>
-            const portfolioItems = document.querySelectorAll(".lastpics");
+            const portfolioItems = document.querySelectorAll(".men");
+
             portfolioItems.forEach((portfolioItem) => {
                 portfolioItem.addEventListener("mouseover", () => {
                     console.log(portfolioItem.childNodes[1].classList);
                     portfolioItem.childNodes[1].classList.add("img-darken");
                 });
 
-            portfolioItem.addEventListener("mouseout", () => {
-                portfolioItem.childNodes[1].classList.remove("img-darken");
+                portfolioItem.addEventListener("mouseout", () => {
+                    portfolioItem.childNodes[1].classList.remove("img-darken");
+                });
             });
-            });
+            
         </script>
 </body>
 </html>
