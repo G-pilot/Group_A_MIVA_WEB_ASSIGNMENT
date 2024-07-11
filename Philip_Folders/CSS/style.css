@@ -34,8 +34,11 @@ header {
 }
 body {
   background-image: url(../Images/whites.jpg);
-  background-color: aliceblue;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
+   background-color: #F8FAFD;
 }
 
 .container {
@@ -119,12 +122,7 @@ ul li a:hover {
   background-color: rgb(4, 29, 50);
   color: rgb(162, 193, 231);
 }
-.button {
-  display: grid;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  
-}
+
 .btn1 {
   display: inline-block;
   width: auto;
@@ -132,8 +130,8 @@ ul li a:hover {
   outline: none;
   position: absolute;
   padding: 16px 24px;
-  top: 210%;
-  left: 13.3%;
+  top: 212%;
+  left: 17.8%;
   text-decoration: none;
   color: #a19385;
   border: 1px solid #b2a39c;
@@ -147,6 +145,7 @@ ul li a:hover {
   letter-spacing: 0;
   line-height: 1rem;
   text-transform: uppercase;
+  transform: translate(-50%, -50%);
 }
 .btn2 {
   display: inline-block;
@@ -155,7 +154,7 @@ ul li a:hover {
   outline: none;
   position: absolute;
   padding: 16px 24px;
-  top: 210%;
+  top: 212%;
   left: 51%;
   text-decoration: none;
   color: #f0d397;
@@ -170,6 +169,7 @@ ul li a:hover {
   letter-spacing: 0;
   line-height: 1rem;
   text-transform: uppercase;
+  transform: translate(-50%, -50%);
 }
 .btn3 {
   display: inline-block;
@@ -178,10 +178,10 @@ ul li a:hover {
   outline: none;
   position: absolute;
   padding: 16px 24px;
-  top: 210%;
-  left: 80%;
+  top: 213%;
+  left: 85%;
   text-decoration: none;
-  color: #a04a03;
+  color: #e6893d;
   border: 1px solid #f18e60;
   background-color: #ccc5bb transparent;
   letter-spacing: 0;
@@ -193,6 +193,7 @@ ul li a:hover {
   letter-spacing: 0;
   line-height: 1rem;
   text-transform: uppercase;
+  transform: translate(-50%, -50%);
 }
 
 .btn4 {
@@ -202,8 +203,8 @@ ul li a:hover {
   outline: none;
   position: absolute;
   padding: 16px 24px;
-  top: 330%;
-  right: 57%;
+  top: 332%;
+  right: 53%;
   text-decoration: none;
   color: #f0d397;
   border: 1px solid #f5dba7;
@@ -217,6 +218,7 @@ ul li a:hover {
   letter-spacing: 0;
   line-height: 1rem;
   text-transform: uppercase;
+  transform: translate(-50%, -50%);
 }
 
 .btn5{
@@ -226,8 +228,8 @@ ul li a:hover {
   outline: none;
   position: absolute;
   padding: 16px 24px;
-  top: 330%;
-  left: 79%;
+  top: 332%;
+  left: 83%;
   text-decoration: none;
   color: #b3a3fd;
   border: 1px solid #fae2ae;
@@ -241,17 +243,18 @@ ul li a:hover {
   letter-spacing: 0;
   line-height: 1rem;
   text-transform: uppercase;
+  transform: translate(-50%, -50%);
 }
 
-.btn6{
+.btn6 {
   display: inline-block;
   width: auto;
-  opacity: 5%;
+  opacity: 35%;
   outline: none;
   position: absolute;
   padding: 16px 24px;
-  top: 410%;
-  left: 13%;
+  top: 412%;
+  left: 17%;
   text-decoration: none;
   color: #060606;
   border: 1px solid #090909;
@@ -265,16 +268,17 @@ ul li a:hover {
   letter-spacing: 0;
   line-height: 1rem;
   text-transform: uppercase;
+  transform: translate(-50%, -50%);
 }
 .btn7{
   display: inline-block;
   width: auto;
-  opacity: 5%;
+  opacity: 45%;
   outline: none;
   position: absolute;
   padding: 16px 24px;
-  top: 410%;
-  left: 46%;
+  top: 412%;
+  left: 48%;
   text-decoration: none;
   color: #060606;
   border: 1px solid #090909;
@@ -288,6 +292,7 @@ ul li a:hover {
   letter-spacing: 0;
   line-height: 1rem;
   text-transform: uppercase;
+  transform: translate(-50%, -50%);
 }
 .btn8{
   display: inline-block;
@@ -296,8 +301,8 @@ ul li a:hover {
   outline: none;
   position: absolute;
   padding: 14px 20px;
-  top: 415.5%;
-  left: 80%;
+  top: 418%;
+  left: 82%;
   text-decoration: none;
   color: #060606;
   border: 1px solid #090909;
@@ -311,6 +316,7 @@ ul li a:hover {
   letter-spacing: 0;
   line-height: 1rem;
   text-transform: uppercase;
+  transform: translate(-50%, -50%);
 }
 
 .btn1:hover, .btn2:hover, .btn3:hover {
@@ -320,20 +326,22 @@ ul li a:hover {
   border: 1px solid #090909;
 }
 
-
 .btn6:hover {
+  position: absolute;
   color: #ffffff;
   transition: 0.6s ease;
   opacity: 100%;
   border: 1px solid #f7dda5;
 }
 .btn7:hover {
+  position: absolute;
   color: #f0d397;
   transition: 0.6s ease;
   opacity: 1!important;
   border: 1px solid #fae2ae;
 }
 .btn8:hover {
+  position: absolute;
   color: #555555;
   transition: 0.6s ease;
   opacity: 100%;
@@ -352,18 +360,6 @@ ul li a:hover {
   padding: 1px;
 } 
 
-@media (max-width:767px) {
-  .home1 {
-      position: relative;
-      padding-bottom: 56.25%; /* 16/9 ratio */
-      padding-top: 30px; /* IE6 workaround*/
-      height: 0;
-      overflow: hidden;
-  }
-  .home2 {
-      margin-left: 0;
-  }
-}
 .lastpics {
   display: inline-grid;
   grid-template-columns: auto auto auto;
