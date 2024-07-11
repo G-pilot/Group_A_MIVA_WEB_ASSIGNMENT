@@ -349,8 +349,8 @@ ul li a:hover {
 }
 
 
-#wrapper { 
-  display: inline-grid;
+.wrapper { 
+  display: inline-flex;
   grid-template-columns: auto auto auto;
 } 
 
@@ -359,10 +359,13 @@ ul li a:hover {
   height: 500px;
   padding: 1px;
 } 
-
+#home2 {
+  width: 750px; 
+  height: 500px;
+  padding: 1px;
+}
 .lastpics {
-  display: inline-grid;
-  grid-template-columns: auto auto auto;
+  display: inline-flex;
   background-color: #f4eeee;
   padding: 8px;
   margin-top: 200px;
