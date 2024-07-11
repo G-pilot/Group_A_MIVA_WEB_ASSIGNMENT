@@ -1,0 +1,113 @@
+header {
+    display: flex;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    background-color: #600704;
+    z-index: 100;
+}
+.logo img{
+    display: flex;
+    z-index: 1;
+    position: absolute;
+    top: 1%;
+    left: 10%;
+    height: 119px;
+    transform: translate(0,0);
+}
+ul {
+    display: flex;
+    z-index: 1;
+    position: absolute;
+    float: right;
+    top: 20px;
+    right: -10px;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+    ul li {
+        display: inline-block;
+    }
+
+    ul li a {
+        padding: 5px 20px;
+        text-decoration: none;
+        color: #f0d397;
+        border: 1px solid transparent;
+        transition: 0.6s ease;
+        display: flex;
+        z-index: 1;
+    }
+
+    ul li a:hover {
+        background-color: rgb(4, 29, 50);
+        color: rgb(162, 193, 231);
+        transform: rotateY(180deg);
+    }
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.signin-container {
+    position: fixed;
+    background-color: #600704;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+h1 {
+    color: #f0d397;
+}
+.signin-container h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.form-group {
+    margin-bottom: 1.5rem;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 1.5rem;
+    color: #f0d397;
+}
+.form-group input {
+    width:380px;
+    padding: 0.5rem;
+    border: 1px solid #f0d397;
+    border-radius: 17px;
+}
+.form-group button {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 17px;
+    background-color: #f0d397;
+    color: #0e0e0d;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: .75rem;
+}
+#fgp {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+.form-group button:hover {
+    background-color: #434190;
+}
+.error {
+    color: red;
+    margin-top: 0.5rem;
+}
