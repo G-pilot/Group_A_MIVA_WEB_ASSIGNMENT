@@ -229,8 +229,8 @@ ul li a:hover {
   position: absolute;
   opacity:  25%;
   padding: 0px 8px;
-  top: 3102px;
-  left:1255px;
+  top: 3095px;
+  left:1240px;
   text-decoration: none;
   color: #060606;
   border: 1px solid #090909;
@@ -267,6 +267,7 @@ ul li a:hover {
   transition: 0.6s ease;
   opacity: 100%;
   border: 1px solid #fae2ae;
+  transform: rotateY(0deg);
 }
 
 .wrapper { 
@@ -289,6 +290,13 @@ ul li a:hover {
   grid-template-columns: auto auto auto;
   padding: 4px;
   margin-top: 200px;
+}
+.last2 {
+  padding: 50px 0px;
+}
+
+.last3 {
+  padding: 100px 0px;
 }
 
 footer {
