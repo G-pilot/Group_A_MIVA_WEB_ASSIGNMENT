@@ -293,13 +293,15 @@ ul li a:hover {
 
 footer {
   position: static;
-  width: 1419px;
-  left: 0;
   bottom: 0;
   text-align: center;
+  padding: 4px;
+  left: 0;
+  width: 1519px;
   height: 300px;
   color: #f8f4f4;
   background-color: #0e0c0c;
+  z-index: 100;
   margin-top: 300px;
 }
 footer p {
