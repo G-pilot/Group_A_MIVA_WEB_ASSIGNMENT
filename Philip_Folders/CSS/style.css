@@ -125,10 +125,7 @@ ul li a:hover {
 }
 
 .btn1 {
-  display: inline-block;
-  width: auto;
   opacity: 1 !important;
-  outline: none;
   position: absolute;
   padding: 16px 24px;
   top: 212%;
@@ -137,22 +134,12 @@ ul li a:hover {
   color: #a19385;
   border: 1px solid #b2a39c;
   background-color: #ccc5bb transparent;
-  letter-spacing: 0;
-  line-height: 1rem;
-  text-transform: uppercase;
-  font-family: inherit;
   font-size: .75rem;
-  font-weight: 700;
-  letter-spacing: 0;
-  line-height: 1rem;
   text-transform: uppercase;
   transform: translate(-50%, -50%);
 }
 .btn2 {
-  display: inline-block;
-  width: auto;
   opacity: 1 !important;
-  outline: none;
   position: absolute;
   padding: 16px 24px;
   top: 212%;
@@ -161,22 +148,12 @@ ul li a:hover {
   color: #f0d397;
   border: 1px solid #b3a39c;
   background-color: #7f0907 transparent;
-  letter-spacing: 0;
-  line-height: 1rem;
-  text-transform: uppercase;
-  font-family: inherit;
   font-size: .75rem;
-  font-weight: 700;
-  letter-spacing: 0;
-  line-height: 1rem;
   text-transform: uppercase;
   transform: translate(-50%, -50%);
 }
 .btn3 {
-  display: inline-block;
-  width: auto;
   opacity: 1 !important;
-  outline: none;
   position: absolute;
   padding: 16px 24px;
   top: 213%;
@@ -185,23 +162,13 @@ ul li a:hover {
   color: #e6893d;
   border: 1px solid #f18e60;
   background-color: #ccc5bb transparent;
-  letter-spacing: 0;
-  line-height: 1rem;
-  text-transform: uppercase;
-  font-family: inherit;
   font-size: .75rem;
-  font-weight: 700;
-  letter-spacing: 0;
-  line-height: 1rem;
   text-transform: uppercase;
   transform: translate(-50%, -50%);
 }
 
 .btn4 {
-  display: inline-block;
-  width: auto;
   opacity: 1 !important;
-  outline: none;
   position: absolute;
   padding: 16px 24px;
   top: 332%;
@@ -210,23 +177,13 @@ ul li a:hover {
   color: #f0d397;
   border: 1px solid #f5dba7;
   background-color: #706e6c transparent;
-  letter-spacing: 0;
-  line-height: 1rem;
-  text-transform: uppercase;
-  font-family: inherit;
   font-size: .75rem;
-  font-weight: 700;
-  letter-spacing: 0;
-  line-height: 1rem;
   text-transform: uppercase;
   transform: translate(-50%, -50%);
 }
 
 .btn5{
-  display: inline-block;
-  width: auto;
   opacity: 1 !important;
-  outline: none;
   position: absolute;
   padding: 16px 24px;
   top: 332%;
@@ -235,87 +192,50 @@ ul li a:hover {
   color: #b3a3fd;
   border: 1px solid #fae2ae;
   background-color: #5b5a59 transparent;
-  letter-spacing: 0;
-  line-height: 1rem;
-  text-transform: uppercase;
-  font-family: inherit;
   font-size: .75rem;
-  font-weight: 700;
-  letter-spacing: 0;
-  line-height: 1rem;
   text-transform: uppercase;
   transform: translate(-50%, -50%);
 }
 
 .btn6 {
-  display: inline-block;
-  width: auto;
   opacity: 35%;
-  outline: none;
   position: absolute;
   padding: 16px 24px;
-  top: 412%;
-  left: 17%;
+  top: 3050px;
+  left: 247px;
   text-decoration: none;
   color: #060606;
   border: 1px solid #090909;
   background-color: transparent;
-  letter-spacing: 0;
-  line-height: 1rem;
-  text-transform: uppercase;
-  font-family: inherit;
   font-size: .85rem;
-  font-weight: 700;
-  letter-spacing: 0;
-  line-height: 1rem;
   text-transform: uppercase;
   transform: translate(-50%, -50%);
 }
 .btn7{
-  display: inline-block;
-  width: auto;
   opacity: 45%;
-  outline: none;
   position: absolute;
   padding: 16px 24px;
-  top: 412%;
-  left: 48%;
+  top: 3050px;
+  left: 727px;
   text-decoration: none;
   color: #060606;
   border: 1px solid #090909;
   background-color: #5b5a59 transparent;
-  letter-spacing: 0;
-  line-height: 1rem;
-  text-transform: uppercase;
-  font-family: inherit;
   font-size:  .85rem;
-  font-weight: 700;
-  letter-spacing: 0;
-  line-height: 1rem;
   text-transform: uppercase;
   transform: translate(-50%, -50%);
 }
 .btn8{
-  display: inline-block;
-  width: auto;
-  opacity:  25%;
-  outline: none;
   position: absolute;
-  padding: 14px 20px;
-  top: 418%;
-  left: 82%;
+  opacity:  25%;
+  padding: 0px 8px;
+  top: 3102px;
+  left:1255px;
   text-decoration: none;
   color: #060606;
   border: 1px solid #090909;
   background-color: #bfc4c0;
-  letter-spacing: 0;
-  line-height: 1rem;
-  text-transform: uppercase;
-  font-family: inherit;
   font-size: 2rem;
-  font-weight: 500;
-  letter-spacing: 0;
-  line-height: 1rem;
   text-transform: uppercase;
   transform: translate(-50%, -50%);
 }
@@ -349,7 +269,6 @@ ul li a:hover {
   border: 1px solid #fae2ae;
 }
 
-
 .wrapper { 
   display: inline-flex;
   grid-template-columns: auto auto auto;
@@ -366,9 +285,9 @@ ul li a:hover {
   padding: 1px;
 }
 .lastpics {
-  display: inline-flex;
-  background-color: #f4eeee;
-  padding: 8px;
+  display: inline-flex;;
+  grid-template-columns: auto auto auto;
+  padding: 4px;
   margin-top: 200px;
 }
 

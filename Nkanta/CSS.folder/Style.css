@@ -1,0 +1,126 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serifs;  
+    margin: 0;
+    padding: 0;
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-position: center; /* Center the image */
+    height: 100vh; /* Full viewport height */
+    background-attachment: fixed; /* Make background fixed on scroll */
+  }
+  .navbar {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    height: 250px;
+  }
+  header {
+    background-color:rgb(52, 15, 95);
+    color: #fff;
+    display:flex;
+    justify-content:space-around;
+    align-items:normal;
+    position:fixed;
+    top:auto;
+    width: 100%;
+    text-align:justify;
+    padding: 2px;
+    font-size:large;
+  }
+  .image-container {
+    width: 350px;;
+    height: 250px;
+    margin-right: 100px;
+    background-image: url(../Other_files/Galitano-removebg-preview.png);
+    background-size: cover; /* Cover the entire div */
+    background-position:center; /* Center the image */
+    background-repeat:no-repeat; /* Do not repeat the image */
+  }
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  header nav ul li {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+  }
+  .Watches_title {
+    color: #aa8d0b;
+    padding-top: 300px;
+    padding-bottom: 2px;
+    text-align: center;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration:none;
+  }
+
+  .header-title {
+    color: #d8dad0;
+    text-align:center;
+    margin-top: 5px; /* Space between nav links and header title */
+  }
+  .header-title h1 {
+    font-size: 3em;
+    margin: 0;
+  }
+  .header-title p {
+    font-size:x-large;
+    font-family: Verdana, Geneva, Tahoma;
+  }
+
+  .product-grid {
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:80px;
+    padding:130px;
+    padding-top: 350px;
+
+  }
+
+  .product {
+    text-align: center;
+  }
+
+  .product img {
+    width: 100%;
+    height:auto;
+  }
+
+  .product h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+
+  .product p {
+    color:blue;
+  }
+
+  footer {
+    background-color:rgb(26, 24, 23);
+    color: #fff;
+    text-align: center;
+    padding: 4px;
+    position:static;
+    bottom:auto;
+    width: 100%;
+  }
+  .nav-links {
+    display:flex;
+    gap: 20px; /* Space between links */
+    margin: 0;
+    color: white;
+    text-decoration:none;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-left: 40px; /* Space between image and nav links */
+  }
+  .Icons {
+    width: 50px;;
+    height: 30px;
+    display: contents;
+  }
+  
