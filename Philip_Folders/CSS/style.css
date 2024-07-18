@@ -221,7 +221,7 @@ ul li a:hover {
   position: absolute;
   opacity:  25%;
   padding: 0px 8px;
-  top: 3095px;
+  top: 3120px;
   left:1240px;
   text-decoration: none;
   color: #060606;
@@ -293,7 +293,7 @@ ul li a:hover {
 
 footer {
   position: static;
-  width: 100%;
+  width: 1419px;
   left: 0;
   bottom: 0;
   text-align: center;
