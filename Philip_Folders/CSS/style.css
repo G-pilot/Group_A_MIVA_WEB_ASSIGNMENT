@@ -26,8 +26,8 @@ header {
 
 .title {
   position: absolute;
-  top: 20% !important;
-  left: 20% !important;
+  top: 150px !important;
+  left: 300px !important;
   color: #060606;
   transform: translate(-50%, -50%);
   background-color: #846657;
@@ -128,8 +128,8 @@ ul li a:hover {
   opacity: 1 !important;
   position: absolute;
   padding: 16px 24px;
-  top: 212%;
-  left: 17.8%;
+  top: 1540px;
+  left: 265px;
   text-decoration: none;
   color: #a19385;
   border: 1px solid #b2a39c;
@@ -142,8 +142,8 @@ ul li a:hover {
   opacity: 1 !important;
   position: absolute;
   padding: 16px 24px;
-  top: 212%;
-  left: 51%;
+  top: 1540px;
+  left: 820px;
   text-decoration: none;
   color: #f0d397;
   border: 1px solid #b3a39c;
@@ -156,8 +156,8 @@ ul li a:hover {
   opacity: 1 !important;
   position: absolute;
   padding: 16px 24px;
-  top: 213%;
-  left: 85%;
+  top: 1570px;
+  left: 1300px;
   text-decoration: none;
   color: #e6893d;
   border: 1px solid #f18e60;
@@ -171,8 +171,8 @@ ul li a:hover {
   opacity: 1 !important;
   position: absolute;
   padding: 16px 24px;
-  top: 332%;
-  right: 53%;
+  top: 2425px;
+  left: 500px;
   text-decoration: none;
   color: #f0d397;
   border: 1px solid #f5dba7;
@@ -186,8 +186,8 @@ ul li a:hover {
   opacity: 1 !important;
   position: absolute;
   padding: 16px 24px;
-  top: 332%;
-  left: 83%;
+  top: 2425px;
+  left: 1263px;
   text-decoration: none;
   color: #b3a3fd;
   border: 1px solid #fae2ae;
