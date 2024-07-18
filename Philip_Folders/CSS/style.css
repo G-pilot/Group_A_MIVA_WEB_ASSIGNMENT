@@ -43,18 +43,16 @@ body {
 }
 
 .container {
-  padding: 30px 0;
-  width: 95%;
-  margin: auto;
-  overflow: hidden;
+  margin-top: 40px;
+  margin-bottom: 70px;
 }
 
 h1, h3 {
   color: #333;
 }
 .section {
-  padding: 20px 0;
   border-bottom: 15px solid #ccc;
+  width: 100%;
 }
 .collections {
   text-align: center;
@@ -68,15 +66,9 @@ p {
 
 .container2 {
   text-align: center;
-  padding: 30px 0;
-  width: 95%;
-  margin: auto;
-  overflow: hidden;
-}
-.container2 p {
+  margin-top: 40px;
+  margin-bottom: 100px;
   font-size: larger;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-style: italic;
 }
 .gridpic {
   display: inline-flex;
@@ -229,7 +221,7 @@ ul li a:hover {
   position: absolute;
   opacity:  25%;
   padding: 0px 8px;
-  top: 3095px;
+  top: 3120px;
   left:1240px;
   text-decoration: none;
   color: #060606;
@@ -315,7 +307,4 @@ footer {
 footer p {
   font-size: 145px;
   text-align: center;
-}
-.footer a {
-bottom: 0;
 }
