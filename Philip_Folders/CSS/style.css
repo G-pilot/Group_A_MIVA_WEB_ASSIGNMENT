@@ -52,6 +52,7 @@ h1, h3 {
 }
 .section {
   border-bottom: 15px solid #ccc;
+  width: 100%;
 }
 .collections {
   text-align: center;
@@ -292,6 +293,7 @@ ul li a:hover {
 
 footer {
   position: static;
+  width: 100%;
   bottom: 0;
   text-align: center;
   height: 300px;
