@@ -29,7 +29,7 @@ body {
   .image-container {
     width: 350px;;
     height: 250px;
-    margin-right: 100px;
+    margin-right: 50px;
     background-image: url(../../Philip_Folders/../Gregory/Other_files/Galitano-removebg-preview.png);
     background-size: cover; /* Cover the entire div */
     background-position:center; /* Center the image */
