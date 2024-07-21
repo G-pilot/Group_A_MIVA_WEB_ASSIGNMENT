@@ -78,10 +78,11 @@ body {
 
   .BOT {
     display:grid;
-    grid-template-columns: repeat(3,1fr);
-    gap:80px;
-    padding:130px;
+    grid-template-columns: repeat(4,1fr);
+    gap:50px;
+    padding:100px;
     padding-top: 150px;
+    text-align: center;
   }
   .write_up{
     text-align: center;
