@@ -26,8 +26,8 @@ header {
 
 .title {
   position: absolute;
-  top: 20% !important;
-  left: 20% !important;
+  top: 150px !important;
+  left: 300px !important;
   color: #060606;
   transform: translate(-50%, -50%);
   background-color: #846657;
@@ -42,25 +42,17 @@ body {
    background-color: #F8FAFD;
 }
 
-main {
-  margin: 0;
-  padding: 5px;
-  background-color: lightgray;
-}
-
 .container {
-  padding: 30px 0;
-  width: 95%;
-  margin: auto;
-  overflow: hidden;
+  margin-top: 40px;
+  margin-bottom: 70px;
 }
 
 h1, h3 {
   color: #333;
 }
 .section {
-  padding: 20px 0;
   border-bottom: 15px solid #ccc;
+  width: 100%;
 }
 .collections {
   text-align: center;
@@ -74,15 +66,9 @@ p {
 
 .container2 {
   text-align: center;
-  padding: 30px 0;
-  width: 95%;
-  margin: auto;
-  overflow: hidden;
-}
-.container2 p {
+  margin-top: 40px;
+  margin-bottom: 100px;
   font-size: larger;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-style: italic;
 }
 .gridpic {
   display: inline-flex;
@@ -131,197 +117,117 @@ ul li a:hover {
 }
 
 .btn1 {
-  display: inline-block;
-  width: auto;
   opacity: 1 !important;
-  outline: none;
   position: absolute;
   padding: 16px 24px;
-  top: 212%;
-  left: 17.8%;
+  top: 1540px;
+  left: 265px;
   text-decoration: none;
   color: #a19385;
   border: 1px solid #b2a39c;
   background-color: #ccc5bb transparent;
-  letter-spacing: 0;
-  line-height: 1rem;
-  text-transform: uppercase;
-  font-family: inherit;
   font-size: .75rem;
-  font-weight: 700;
-  letter-spacing: 0;
-  line-height: 1rem;
   text-transform: uppercase;
   transform: translate(-50%, -50%);
 }
 .btn2 {
-  display: inline-block;
-  width: auto;
   opacity: 1 !important;
-  outline: none;
   position: absolute;
   padding: 16px 24px;
-  top: 212%;
-  left: 51%;
+  top: 1540px;
+  left: 820px;
   text-decoration: none;
   color: #f0d397;
   border: 1px solid #b3a39c;
   background-color: #7f0907 transparent;
-  letter-spacing: 0;
-  line-height: 1rem;
-  text-transform: uppercase;
-  font-family: inherit;
   font-size: .75rem;
-  font-weight: 700;
-  letter-spacing: 0;
-  line-height: 1rem;
   text-transform: uppercase;
   transform: translate(-50%, -50%);
 }
 .btn3 {
-  display: inline-block;
-  width: auto;
   opacity: 1 !important;
-  outline: none;
   position: absolute;
   padding: 16px 24px;
-  top: 213%;
-  left: 85%;
+  top: 1570px;
+  left: 1300px;
   text-decoration: none;
   color: #e6893d;
   border: 1px solid #f18e60;
   background-color: #ccc5bb transparent;
-  letter-spacing: 0;
-  line-height: 1rem;
-  text-transform: uppercase;
-  font-family: inherit;
   font-size: .75rem;
-  font-weight: 700;
-  letter-spacing: 0;
-  line-height: 1rem;
   text-transform: uppercase;
   transform: translate(-50%, -50%);
 }
 
 .btn4 {
-  display: inline-block;
-  width: auto;
   opacity: 1 !important;
-  outline: none;
   position: absolute;
   padding: 16px 24px;
-  top: 332%;
-  right: 53%;
+  top: 2425px;
+  left: 500px;
   text-decoration: none;
   color: #f0d397;
   border: 1px solid #f5dba7;
   background-color: #706e6c transparent;
-  letter-spacing: 0;
-  line-height: 1rem;
-  text-transform: uppercase;
-  font-family: inherit;
   font-size: .75rem;
-  font-weight: 700;
-  letter-spacing: 0;
-  line-height: 1rem;
   text-transform: uppercase;
   transform: translate(-50%, -50%);
 }
 
 .btn5{
-  display: inline-block;
-  width: auto;
   opacity: 1 !important;
-  outline: none;
   position: absolute;
   padding: 16px 24px;
-  top: 332%;
-  left: 83%;
+  top: 2425px;
+  left: 1263px;
   text-decoration: none;
   color: #b3a3fd;
   border: 1px solid #fae2ae;
   background-color: #5b5a59 transparent;
-  letter-spacing: 0;
-  line-height: 1rem;
-  text-transform: uppercase;
-  font-family: inherit;
   font-size: .75rem;
-  font-weight: 700;
-  letter-spacing: 0;
-  line-height: 1rem;
   text-transform: uppercase;
   transform: translate(-50%, -50%);
 }
 
 .btn6 {
-  display: inline-block;
-  width: auto;
   opacity: 35%;
-  outline: none;
   position: absolute;
   padding: 16px 24px;
-  top: 412%;
-  left: 17%;
+  top: 3050px;
+  left: 247px;
   text-decoration: none;
   color: #060606;
   border: 1px solid #090909;
   background-color: transparent;
-  letter-spacing: 0;
-  line-height: 1rem;
-  text-transform: uppercase;
-  font-family: inherit;
   font-size: .85rem;
-  font-weight: 700;
-  letter-spacing: 0;
-  line-height: 1rem;
   text-transform: uppercase;
   transform: translate(-50%, -50%);
 }
 .btn7{
-  display: inline-block;
-  width: auto;
   opacity: 45%;
-  outline: none;
   position: absolute;
   padding: 16px 24px;
-  top: 412%;
-  left: 48%;
+  top: 3050px;
+  left: 727px;
   text-decoration: none;
   color: #060606;
   border: 1px solid #090909;
   background-color: #5b5a59 transparent;
-  letter-spacing: 0;
-  line-height: 1rem;
-  text-transform: uppercase;
-  font-family: inherit;
   font-size:  .85rem;
-  font-weight: 700;
-  letter-spacing: 0;
-  line-height: 1rem;
   text-transform: uppercase;
   transform: translate(-50%, -50%);
 }
 .btn8{
-  display: inline-block;
-  width: auto;
-  opacity:  25%;
-  outline: none;
   position: absolute;
-  padding: 14px 20px;
-  top: 418%;
-  left: 82%;
+  opacity:  25%;
+  padding: 0px 8px;
+  top: 3120px;
+  left:1240px;
   text-decoration: none;
   color: #060606;
   border: 1px solid #090909;
   background-color: #bfc4c0;
-  letter-spacing: 0;
-  line-height: 1rem;
-  text-transform: uppercase;
-  font-family: inherit;
   font-size: 2rem;
-  font-weight: 500;
-  letter-spacing: 0;
-  line-height: 1rem;
   text-transform: uppercase;
   transform: translate(-50%, -50%);
 }
@@ -353,8 +259,8 @@ ul li a:hover {
   transition: 0.6s ease;
   opacity: 100%;
   border: 1px solid #fae2ae;
+  transform: rotateY(0deg);
 }
-
 
 .wrapper { 
   display: inline-flex;
@@ -372,10 +278,17 @@ ul li a:hover {
   padding: 1px;
 }
 .lastpics {
-  display: inline-flex;
-  background-color: #f4eeee;
-  padding: 8px;
+  display: inline-flex;;
+  grid-template-columns: auto auto auto;
+  padding: 4px;
   margin-top: 200px;
+}
+.last2 {
+  padding: 50px 0px;
+}
+
+.last3 {
+  padding: 100px 0px;
 }
 
 footer {
@@ -394,7 +307,4 @@ footer {
 footer p {
   font-size: 145px;
   text-align: center;
-}
-.footer a {
-bottom: 0;
 }
