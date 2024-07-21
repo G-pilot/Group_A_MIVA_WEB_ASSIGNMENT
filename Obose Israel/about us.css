@@ -5,7 +5,14 @@ header {
     padding: 10px 0;
     text-align: center;
 }
-
+.team {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: 250px;
+    width: 250px;
+    gap: 50px;
+    padding: 150px;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -38,49 +45,33 @@ header {
     border: 1px solid rgb(52, 15, 95);
     border-radius: 9px;
 }
+.team li a {
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+        background-color: #f0f0f0;
+    
+    
+    
+        display: grid;
+        gap: 5px; /* Adjust gap between photos as needed */
+        grid-template-columns: auto-fit(auto-fit, minmax(150px, 1fr)); /* Adjust min width of photos */
+        width: 50%; /* Adjust the overall width of the grid container 90% */
+        max-width: 120px; /* Optional: maximum width of the grid container 1200px */
+    
+    
+    
+        width: 100%;
+        height: auto;
+        object-fit: cover; /* Optional: Adjust how the photos fit inside their grid cells */
+        border-radius: 8px; /* Optional: Adds rounded corners to the photos */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow to the photos */
+    }
+    
 
-.content {
-    color: rgb(52, 15, 95);
-}
-
-h1, h2 {
-    text-align: center;
-    color: burlywood;
-}
-
-p {
-    text-align: justify;
-}
-
-.button {
-    display: inline-block;
-    background-color: grey;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-    cursor: pointer;
-}
-
-.button:hover {
-    background-color: goldenrod;
-}
-
-/* Styles for footer */
-footer {
-    background-color: lightgrey;
-    padding: 20px;
-    text-align: center;
-}
-
-footer a {
-    text-decoration: none;
-    color: rgb(52, 15, 95);
-    margin: 0 5px;
-}
-
-footer a:hover {
-    text-decoration: underline;
+footer{
+    
 }
