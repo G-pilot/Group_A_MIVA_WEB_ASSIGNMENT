@@ -5,7 +5,14 @@ header {
     padding: 10px 0;
     text-align: center;
 }
-
+.team {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: 250px;
+    width: 250px;
+    gap: 50px;
+    padding: 150px;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -37,50 +44,4 @@ header {
     background: white;
     border: 1px solid rgb(52, 15, 95);
     border-radius: 9px;
-}
-
-.content {
-    color: rgb(52, 15, 95);
-}
-
-h1, h2 {
-    text-align: center;
-    color: burlywood;
-}
-
-p {
-    text-align: justify;
-}
-
-.button {
-    display: inline-block;
-    background-color: grey;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-    cursor: pointer;
-}
-
-.button:hover {
-    background-color: goldenrod;
-}
-
-/* Styles for footer */
-footer {
-    background-color: lightgrey;
-    padding: 20px;
-    text-align: center;
-}
-
-footer a {
-    text-decoration: none;
-    color: rgb(52, 15, 95);
-    margin: 0 5px;
-}
-
-footer a:hover {
-    text-decoration: underline;
 }

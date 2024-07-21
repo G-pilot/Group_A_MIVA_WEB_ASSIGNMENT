@@ -11,7 +11,7 @@ body {
   .navbar {
     display: flex;
     align-items: center; /* Center items vertically */
-    height: 250px;
+    height: 230px;
   }
   header {
     background-color:rgb(52, 15, 95);
@@ -59,10 +59,13 @@ body {
   }
 
   .header-title {
-    color: #d8dad0;
+    color: #d2d0da;
     text-align:center;
     margin-top: 5px; /* Space between nav links and header title */
+    font-size:medium;
   }
+  
+  
   .header-title h1 {
     font-size: 3em;
     margin: 0;

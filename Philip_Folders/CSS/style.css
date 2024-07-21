@@ -23,10 +23,11 @@ header {
   background-color: #600704;
   z-index: 100;
 }
+
 .title {
   position: absolute;
-  top: 20% !important;
-  left: 20% !important;
+  top: 150px !important;
+  left: 300px !important;
   color: #060606;
   transform: translate(-50%, -50%);
   background-color: #846657;
@@ -34,23 +35,24 @@ header {
 }
 body {
   background-image: url(../Images/whites.jpg);
-  background-color: aliceblue;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
+   background-color: #F8FAFD;
 }
 
 .container {
-  padding: 30px 0;
-  width: 95%;
-  margin: auto;
-  overflow: hidden;
+  margin-top: 40px;
+  margin-bottom: 70px;
 }
 
 h1, h3 {
   color: #333;
 }
 .section {
-  padding: 20px 0;
   border-bottom: 15px solid #ccc;
+  width: 100%;
 }
 .collections {
   text-align: center;
@@ -64,18 +66,12 @@ p {
 
 .container2 {
   text-align: center;
-  padding: 30px 0;
-  width: 95%;
-  margin: auto;
-  overflow: hidden;
-}
-.container2 p {
+  margin-top: 40px;
+  margin-bottom: 100px;
   font-size: larger;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-style: italic;
 }
 .gridpic {
-  display: inline-grid;
+  display: inline-flex;
   grid-template-columns: auto auto auto;
   background-color: #600704;
   padding: 8px;
@@ -119,198 +115,121 @@ ul li a:hover {
   background-color: rgb(4, 29, 50);
   color: rgb(162, 193, 231);
 }
-.button {
-  display: grid;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  
-}
+
 .btn1 {
-  display: inline-block;
-  width: auto;
   opacity: 1 !important;
-  outline: none;
   position: absolute;
   padding: 16px 24px;
-  top: 210%;
-  left: 13.3%;
+  top: 1540px;
+  left: 265px;
   text-decoration: none;
   color: #a19385;
   border: 1px solid #b2a39c;
   background-color: #ccc5bb transparent;
-  letter-spacing: 0;
-  line-height: 1rem;
-  text-transform: uppercase;
-  font-family: inherit;
   font-size: .75rem;
-  font-weight: 700;
-  letter-spacing: 0;
-  line-height: 1rem;
   text-transform: uppercase;
+  transform: translate(-50%, -50%);
 }
 .btn2 {
-  display: inline-block;
-  width: auto;
   opacity: 1 !important;
-  outline: none;
   position: absolute;
   padding: 16px 24px;
-  top: 210%;
-  left: 51%;
+  top: 1540px;
+  left: 820px;
   text-decoration: none;
   color: #f0d397;
   border: 1px solid #b3a39c;
   background-color: #7f0907 transparent;
-  letter-spacing: 0;
-  line-height: 1rem;
-  text-transform: uppercase;
-  font-family: inherit;
   font-size: .75rem;
-  font-weight: 700;
-  letter-spacing: 0;
-  line-height: 1rem;
   text-transform: uppercase;
+  transform: translate(-50%, -50%);
 }
 .btn3 {
-  display: inline-block;
-  width: auto;
   opacity: 1 !important;
-  outline: none;
   position: absolute;
   padding: 16px 24px;
-  top: 210%;
-  left: 80%;
+  top: 1570px;
+  left: 1300px;
   text-decoration: none;
-  color: #a04a03;
+  color: #e6893d;
   border: 1px solid #f18e60;
   background-color: #ccc5bb transparent;
-  letter-spacing: 0;
-  line-height: 1rem;
-  text-transform: uppercase;
-  font-family: inherit;
   font-size: .75rem;
-  font-weight: 700;
-  letter-spacing: 0;
-  line-height: 1rem;
   text-transform: uppercase;
+  transform: translate(-50%, -50%);
 }
 
 .btn4 {
-  display: inline-block;
-  width: auto;
   opacity: 1 !important;
-  outline: none;
   position: absolute;
   padding: 16px 24px;
-  top: 330%;
-  right: 57%;
+  top: 2425px;
+  left: 500px;
   text-decoration: none;
   color: #f0d397;
   border: 1px solid #f5dba7;
   background-color: #706e6c transparent;
-  letter-spacing: 0;
-  line-height: 1rem;
-  text-transform: uppercase;
-  font-family: inherit;
   font-size: .75rem;
-  font-weight: 700;
-  letter-spacing: 0;
-  line-height: 1rem;
   text-transform: uppercase;
+  transform: translate(-50%, -50%);
 }
 
 .btn5{
-  display: inline-block;
-  width: auto;
   opacity: 1 !important;
-  outline: none;
   position: absolute;
   padding: 16px 24px;
-  top: 330%;
-  left: 79%;
+  top: 2425px;
+  left: 1263px;
   text-decoration: none;
   color: #b3a3fd;
   border: 1px solid #fae2ae;
   background-color: #5b5a59 transparent;
-  letter-spacing: 0;
-  line-height: 1rem;
-  text-transform: uppercase;
-  font-family: inherit;
   font-size: .75rem;
-  font-weight: 700;
-  letter-spacing: 0;
-  line-height: 1rem;
   text-transform: uppercase;
+  transform: translate(-50%, -50%);
 }
 
-.btn6{
-  display: inline-block;
-  width: auto;
-  opacity: 5%;
-  outline: none;
+.btn6 {
+  opacity: 35%;
   position: absolute;
   padding: 16px 24px;
-  top: 410%;
-  left: 13%;
+  top: 3050px;
+  left: 247px;
   text-decoration: none;
   color: #060606;
   border: 1px solid #090909;
   background-color: transparent;
-  letter-spacing: 0;
-  line-height: 1rem;
-  text-transform: uppercase;
-  font-family: inherit;
   font-size: .85rem;
-  font-weight: 700;
-  letter-spacing: 0;
-  line-height: 1rem;
   text-transform: uppercase;
+  transform: translate(-50%, -50%);
 }
 .btn7{
-  display: inline-block;
-  width: auto;
-  opacity: 5%;
-  outline: none;
+  opacity: 45%;
   position: absolute;
   padding: 16px 24px;
-  top: 410%;
-  left: 46%;
+  top: 3050px;
+  left: 727px;
   text-decoration: none;
   color: #060606;
   border: 1px solid #090909;
   background-color: #5b5a59 transparent;
-  letter-spacing: 0;
-  line-height: 1rem;
-  text-transform: uppercase;
-  font-family: inherit;
   font-size:  .85rem;
-  font-weight: 700;
-  letter-spacing: 0;
-  line-height: 1rem;
   text-transform: uppercase;
+  transform: translate(-50%, -50%);
 }
 .btn8{
-  display: inline-block;
-  width: auto;
-  opacity:  25%;
-  outline: none;
   position: absolute;
-  padding: 14px 20px;
-  top: 415.5%;
-  left: 80%;
+  opacity:  25%;
+  padding: 0px 8px;
+  top: 3120px;
+  left:1240px;
   text-decoration: none;
   color: #060606;
   border: 1px solid #090909;
   background-color: #bfc4c0;
-  letter-spacing: 0;
-  line-height: 1rem;
-  text-transform: uppercase;
-  font-family: inherit;
   font-size: 2rem;
-  font-weight: 500;
-  letter-spacing: 0;
-  line-height: 1rem;
   text-transform: uppercase;
+  transform: translate(-50%, -50%);
 }
 
 .btn1:hover, .btn2:hover, .btn3:hover {
@@ -320,29 +239,31 @@ ul li a:hover {
   border: 1px solid #090909;
 }
 
-
 .btn6:hover {
+  position: absolute;
   color: #ffffff;
   transition: 0.6s ease;
   opacity: 100%;
   border: 1px solid #f7dda5;
 }
 .btn7:hover {
+  position: absolute;
   color: #f0d397;
   transition: 0.6s ease;
   opacity: 1!important;
   border: 1px solid #fae2ae;
 }
 .btn8:hover {
+  position: absolute;
   color: #555555;
   transition: 0.6s ease;
   opacity: 100%;
   border: 1px solid #fae2ae;
+  transform: rotateY(0deg);
 }
 
-
-#wrapper { 
-  display: inline-grid;
+.wrapper { 
+  display: inline-flex;
   grid-template-columns: auto auto auto;
 } 
 
@@ -351,25 +272,23 @@ ul li a:hover {
   height: 500px;
   padding: 1px;
 } 
-
-@media (max-width:767px) {
-  .home1 {
-      position: relative;
-      padding-bottom: 56.25%; /* 16/9 ratio */
-      padding-top: 30px; /* IE6 workaround*/
-      height: 0;
-      overflow: hidden;
-  }
-  .home2 {
-      margin-left: 0;
-  }
+#home2 {
+  width: 750px; 
+  height: 500px;
+  padding: 1px;
 }
 .lastpics {
-  display: inline-grid;
+  display: inline-flex;;
   grid-template-columns: auto auto auto;
-  background-color: #f4eeee;
-  padding: 8px;
+  padding: 4px;
   margin-top: 200px;
+}
+.last2 {
+  padding: 50px 0px;
+}
+
+.last3 {
+  padding: 100px 0px;
 }
 
 footer {
@@ -388,7 +307,4 @@ footer {
 footer p {
   font-size: 145px;
   text-align: center;
-}
-.footer a {
-bottom: 0;
 }
