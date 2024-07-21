@@ -1,6 +1,6 @@
 *{
   margin: 0;
-  padding: 0;
+  padding: 0px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .logo img{
@@ -24,14 +24,17 @@ header {
   z-index: 100;
 }
 
-.title {
+marquee {
   position: absolute;
-  top: 150px !important;
-  left: 300px !important;
-  color: #060606;
-  transform: translate(-50%, -50%);
-  background-color: #846657;
+  top: 120px;
+  font-size: xx-large;
+  color: #fbe1ae;
+  background-color: #664d41;
   opacity: 60%;
+}
+.fashion {
+  margin-top: 5px;
+  margin-left: 5px;
 }
 body {
   background-image: url(../Images/whites.jpg);
@@ -50,10 +53,7 @@ body {
 h1, h3 {
   color: #333;
 }
-.section {
-  border-bottom: 15px solid #ccc;
-  width: 100%;
-}
+
 .collections {
   text-align: center;
 }
@@ -221,7 +221,7 @@ ul li a:hover {
   position: absolute;
   opacity:  25%;
   padding: 0px 8px;
-  top: 3120px;
+  top: 3100px;
   left:1240px;
   text-decoration: none;
   color: #060606;
