@@ -45,3 +45,33 @@ header {
     border: 1px solid rgb(52, 15, 95);
     border-radius: 9px;
 }
+.team li a {
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+        background-color: #f0f0f0;
+    
+    
+    
+        display: grid;
+        gap: 5px; /* Adjust gap between photos as needed */
+        grid-template-columns: auto-fit(auto-fit, minmax(150px, 1fr)); /* Adjust min width of photos */
+        width: 50%; /* Adjust the overall width of the grid container 90% */
+        max-width: 120px; /* Optional: maximum width of the grid container 1200px */
+    
+    
+    
+        width: 100%;
+        height: auto;
+        object-fit: cover; /* Optional: Adjust how the photos fit inside their grid cells */
+        border-radius: 8px; /* Optional: Adds rounded corners to the photos */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow to the photos */
+    }
+    
+
+footer{
+    
+}
